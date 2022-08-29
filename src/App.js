@@ -7,7 +7,7 @@ import Navbar from './Navbar';
 const App = () => {
   const [color, setColor] = useState('');
   const [error, setError] = useState(false);
-  const [list, setList] = useState(new Values('blue').all(10));
+  const [list, setList] = useState(new Values('#0000ff').all(10));
   
   const handleSubmit =(e) => {
     e.preventDefault();
