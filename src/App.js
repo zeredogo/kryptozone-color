@@ -32,7 +32,7 @@ const App = () => {
             type='text'
             value={color}
             onChange={(e) => setColor(e.target.value)}
-            placeholder='bl'
+            placeholder='#0000'
             className={`${error ? 'error' : null}`}
           />
           <button className='btn' type='submit'>
